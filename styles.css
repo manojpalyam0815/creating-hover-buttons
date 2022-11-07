@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    color: white;
+    padding:3px;
+    margin: 20px;
+    grid-gap: 20px;
+}
+h1{
+    padding:50px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+.success{
+    background-color:white;
+    color: green;
+    border :5px solid green;
+}
+.success:hover{
+    background-color:green;
+    color: white;
+    border :5px solid green;
+}
+.info{
+    background-color:white;
+    color: blue;
+    border :5px solid blue;
+}
+.info:hover{
+    background-color:blue;
+    color: white;
+    border :5px solid blue;
+}
+.warning{
+    background-color: white;
+    color: orange;
+    border: 5px solid orange;
+}
+.warning:hover{
+    background-color: orange;
+    color: white;
+    
+}
+.danger{
+    color: red;
+    border: 5px solid red;
+}
+.danger:hover{
+    background-color: red;
+    color: white;
+}
+.default{
+    color: dimgray;
+    border: 5px solid dimgray;
+}
+.default:hover{
+    background-color: dimgray;
+    color: white;
+}
